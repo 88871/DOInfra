@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import Button from '../../components/Button';
 import traceImage from '../../assets/images/trace.png';
 

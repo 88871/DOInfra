@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import React from 'react';
 import TypewriterEffect from './TypewriterEffect';
 import Button from './Button';
 

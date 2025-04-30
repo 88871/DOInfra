@@ -1,5 +1,5 @@
+import React from 'react';
 import Hero from '../components/Hero';
-import { Link } from 'react-router-dom';
 import Button from '../components/Button';
 // Import partner logos
 import ziggoLogo from '../assets/partners/ziggo.png';

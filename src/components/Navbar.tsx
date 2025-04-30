@@ -1,6 +1,6 @@
+import React from 'react';
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import Button from './Button';
 
 // Navigatie items met iconen
 const navigationItems = [
