@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import HomePage from './pages/HomePage'
@@ -6,9 +7,20 @@ import DienstenPage from './pages/diensten/DienstenPage'
 import PortfolioPage from './pages/portfolio/PortfolioPage'
 import VacaturesPage from './pages/vacatures/VacaturesPage'
 import ContactPage from './pages/contact/ContactPage'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './App.css'
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false,
+    });
+  }, []);
+
   return (
     <Router>
       <Layout>

@@ -70,24 +70,36 @@ const HomePage = () => {
               <p className="text-lg text-gray-700 mb-6">
                 Onze specialisatie ligt in het aanleggen van elektriciteits- en datanetwerken, grondwerk en bestrating. Dankzij onze nauwe samenwerking met nutsbedrijven en telecomproviders zoals Ziggo, kunnen wij een hoogwaardige en efficiënte dienstverlening garanderen.
               </p>
-              <div className="flex flex-wrap gap-3 mt-8">
-                <div className="inline-flex items-center px-4 py-2 rounded-md bg-blue-50 text-blue-700">
-                  <svg className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  VCA gecertificeerd
+              <div className="flex flex-wrap items-start gap-6 mt-8">
+                {/* Certification 1 */}
+                <div className="flex items-center gap-2">
+                  <img 
+                    src="/src/assets/images/vca-logo.png" 
+                    alt="VCA gecertificeerd" 
+                    className="h-10 w-auto object-contain flex-shrink-0"
+                    title="VCA gecertificeerd"
+                  />
+                  <span className="text-sm font-medium text-gray-700">gecertificeerd</span>
                 </div>
-                <div className="inline-flex items-center px-4 py-2 rounded-md bg-blue-50 text-blue-700">
-                  <svg className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  Erkend leerbedrijf
+                {/* Certification 2 */}
+                <div className="flex items-center gap-2">
+                  <img 
+                    src="/src/assets/images/bb.png"
+                    alt="Erkend leerbedrijf" 
+                    className="h-10 w-auto object-contain flex-shrink-0"
+                    title="Erkend leerbedrijf (SBB)"
+                  />
+                  <span className="text-sm font-medium text-gray-700">(SBB)</span>
                 </div>
-                <div className="inline-flex items-center px-4 py-2 rounded-md bg-blue-50 text-blue-700">
-                  <svg className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  ISO 9001
+                {/* Certification 3 */}
+                <div className="flex items-center gap-2">
+                  <img 
+                    src="/src/assets/images/iso.png" 
+                    alt="ISO 9001 gecertificeerd" 
+                    className="h-10 w-auto object-contain flex-shrink-0"
+                    title="ISO 9001 gecertificeerd"
+                  />
+                  <span className="text-sm font-medium text-gray-700">9001</span>
                 </div>
               </div>
             </div>

@@ -71,7 +71,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <img className="h-12 w-auto" src="/logo.png" alt="D&O Infra B.V. Logo" />
+              <img className="h-16 w-auto" src="/logo.png" alt="D&O Infra B.V. Logo" />
               <span className="ml-3 text-xl font-bold text-gray-900 hidden md:block">D&O Infra B.V.</span>
             </Link>
           </div>

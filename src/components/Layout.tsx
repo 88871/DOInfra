@@ -16,7 +16,7 @@ const Layout = ({ children }: LayoutProps) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="md:flex md:justify-between">
             <div className="mb-8 md:mb-0">
-              <img className="h-8 w-auto" src="/logo.png" alt="Logo" />
+              <img className="h-12 w-auto" src="/logo.png" alt="Logo" />
               <p className="mt-4 text-sm text-gray-100">
                 © {new Date().getFullYear()} D&O Infra B.V. Alle rechten voorbehouden.
               </p>
